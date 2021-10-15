@@ -1,0 +1,19 @@
+{
+    "apiUrl" : "https://api.coingecko.com/api/v3",
+    "text" : {
+        "COIN_FETCH_FAIL_MSG" : "Could not retrieve coin list",
+        "TRENDING_RESULTS_FAIL_MSG" : "Could not retrieve trending results",
+        "COIN_DETAIL_FAIL_MSG" : "Could not retrieve coin details",
+        "SEARCH_INPUT_LABEL" : "Search by name or symbol",
+        "LOGIN_LABEL" : "Login",
+        "LOGOUT_LABEL" : "Logout",
+        "TRENDING_RESULTS" : "Trending results",
+        "DASHBOARD" : "Dashboard",
+        "TH_ID" : "ID",
+        "TH_NAME" : "NAME",
+        "TH_SYMBOL" : "SYMBOL",
+        "VIEW_DETAILS" : "View details",
+        "COIN_DETAILS" : "Coin details"
+        }
+    
+}

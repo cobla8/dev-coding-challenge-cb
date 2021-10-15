@@ -1,0 +1,547 @@
+ body{
+   color:grey;
+ }
+
+ a{
+  text-decoration: none !important;
+  color:grey !important;
+ }
+
+ .loginPage .logo{
+   width:100%;
+ }
+
+.loginPage{
+  background-color:#182039;
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
+.pageButtons button{
+  color:white;
+  padding:5px 15px 10px;
+  border: 1px solid #b37382;
+  background-color: #b37382;
+  border-radius:3px;
+  margin-bottom:15px;
+}
+
+.viewMore{
+  color:white;
+  padding:5px 15px;
+  border: 1px solid #4CAF50;
+  background-color: #4CAF50;
+  border-radius:3px;
+  margin: 0 auto;
+  display: block;
+}
+
+.pageNumber{
+  margin:0 auto;
+  display:inline-block;
+  width:100%;
+  text-align: center;
+}
+
+.prevButton{
+  float:left;
+}
+
+.nextButton{
+  float:right;
+}
+
+.regEntPage{
+  background-color: #fff !important;
+  background: purple !important; 
+}
+
+.loginForm{
+  width:30%;
+  margin:0 auto;
+  margin-top:8%;
+  padding:40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 7px;
+  border:1px solid lightgrey;
+}
+
+.logo{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.loginContainer{
+  margin-top:15px;
+}
+
+.loginContainer button{
+  display:block;
+  margin-bottom:15px;
+  border:1px solid #fff;
+  width: 100%;
+  padding:10px;
+  color:#fff;
+  border-radius: 7px;
+}
+
+.loginContainer a{
+  display:block;
+  margin-bottom:15px;
+  border:1px solid #fff;
+  width: 100%;
+  padding:8px;
+  color:#fff !important;
+  background-color: #b37382;
+  border-radius: 7px;
+}
+
+.loginContainer svg{
+  font-size: 20px;
+  color: #fff;
+  float: left;
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+
+.headerTop{
+  width:100%;
+  background-color: rgb(2,0,36); 
+  min-height: 100px;
+  position:relative;
+}
+
+.headerTop .logo{
+  float: left;
+  color: #fff;
+  padding: 25px;
+}
+
+.headerRightBox{
+  float:right;
+  position: relative;
+  margin-right:30px;
+}
+
+.headerRightBox span{
+  position:absolute;
+  top:5px;
+  right:0;
+  color:#fff;
+  font-size: 12px;
+}
+
+.coinLogo{
+  float:right;
+  margin-bottom:15px;
+}
+
+:root {
+  --main-color: #111;
+  --loader-color: #4CAF50;
+  --back-color: #A5D6A7;
+  --time: 3s;
+  --size: 15px;
+}
+
+.loader__element {
+	height: var(--size);
+	width: 100%;
+	background: var(--back-color);
+}
+
+.innerPage h1{
+  margin-bottom:30px;
+  font-size: 25px;
+  border-bottom:1px solid lightgrey;
+  padding-bottom: 25px;
+}
+
+.TrendingResultsScreen img{
+  position: absolute;
+}
+
+.searchBox{
+  margin-bottom:17px;
+}
+
+.searchBox input{
+  width:30%;
+  float:right;
+}
+
+.pndiv{
+  color: white;
+  background-color: #b37382;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+
+.errorMessage{
+  width:100%;
+  text-align:left;
+  color:red;
+  border:1px solid red;
+  background:pink;
+  padding:15px;
+  border-radius:3px;
+}
+
+.loaderElement:before {
+	content: '';
+	display: block;
+	background-color: var(--loader-color);
+	height: var(--size);
+	width: 0;
+  animation: getWidth var(--time) ease-in infinite;
+}
+
+@keyframes getWidth {
+	100% { width: 100%; }
+}
+
+.headerTop .menu{
+  padding:0;
+  margin:0;
+  position: relative;
+  top: 30px;
+}
+
+.headerTop .menu li{
+  display:inline-block;
+  margin-left:15px;
+}
+
+.headerTop .menu li a{
+  color:#fff  !important;
+  display:block;
+  padding-left:7px;
+}
+
+.clear{
+  clear:both;
+}
+
+.activityRow{
+  background-color: lightgrey;
+  padding:15px;
+  position:relative;
+  margin-bottom:20px;
+}
+
+.contentSummary .emailRow{
+  padding:15px;
+  position:relative;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.emailsPage .emailRow{
+  padding:0;
+  position:relative;
+}
+
+.contentSummary hr{
+  padding:0;
+  margin:0;
+}
+
+.actionBox{
+  padding:20px 25px 25px 25px;
+  border:1px solid lightgrey;
+  position: absolute;
+  right:0;
+  display:none;
+  background-color: #fff;
+  z-index:1;
+}
+
+.actionBox button{
+  border:0;
+  background-color: transparent;
+}
+
+.actionBox ul{
+  padding:0;
+  margin:0;
+}
+
+.overlay{
+  width:100%;
+  background:rgba(0,0,0,0.5);
+  height:100%;
+  position:absolute;
+  z-index: 1;
+  top:0;
+  display: none;
+}
+
+.addActivity{
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  font-size: 39px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.addButton{
+  background-color: transparent;
+  border:0;
+  float:right;
+}
+
+.messageBoxScreen{
+  width:100%;
+  position: absolute;
+  min-height:100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 3;
+}
+
+.messageBoxBody{
+  padding:15px;
+}
+
+.boxHeading{
+  padding:7px;
+  position: relative;
+  color:#fff;
+}
+
+#success{
+  background-color: green;
+}
+
+#error{
+  background-color: red;
+}
+
+.messageBox{
+  width:358px;
+  position:relative;
+  top:15%;
+  background-color: #fff;
+  margin:0 auto;
+}
+
+.viewCoinBox, .existingActivityBox{
+  position: absolute;
+  width:70%;
+  background-color: #fff;
+  top:10%;
+  left:14%;
+  border:1px solid lightgrey;
+  margin:0 auto;
+  padding:0px 0px 20px 0px;
+  display:none;
+  z-index: 2;
+}
+
+.boxHeader{
+  padding:10px;
+  background-color: black;
+  color:#fff;
+  position: relative;
+}
+
+.viewCoinBoxInner{
+  margin-top:20px;
+  padding:30px;
+}
+
+.actionBox ul li{
+  list-style:none;
+}
+
+.actionBox ul li a{
+  display:block;
+  padding:7px;
+  border-bottom:1px solid lightgrey;
+}
+
+.actionButtons{
+  cursor: pointer;
+}
+
+.closeBox{
+  position:absolute;
+  top:5px;
+  right:5px;
+  color:grey;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.emailsPage hr{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.fright{
+  float:right;
+}
+
+.fleft{
+  float:left;
+}
+
+.contentSummary .emailIcon{
+  font-size: 30px;
+  color:grey;
+  position:relative;
+  top:20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.emailsPage .emailIcon{
+  font-size: 30px;
+  color:grey;
+  position:relative;
+  top:20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.emailDate{
+  font-weight: bold;
+  margin-top:10px;
+  font-size: 13px;
+}
+
+.activityOrb{
+  border-radius: 50%;
+  padding: 15px 20px;
+  text-align: center;
+  background-color: yellow;
+  display: inline-block;
+}
+
+.activityTitle{
+  position:relative;
+  top:10px;
+}
+
+.greenCheck{
+  color: green;
+  font-size: 35px;
+  position: relative;
+  top: 8px;
+  float: right;
+}
+
+ .myAccountScreen{
+  padding-top:40px;
+}
+
+.form-step{
+  width:40%;
+}
+
+.allSteps {
+  text-align: center;
+  margin-bottom:50px;
+  position: relative;
+}
+
+.allSteps hr{
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  z-index: -1;
+}
+
+.hidden{
+  display:none;
+}
+
+.innerPage{
+  padding-top:30px;
+}
+
+.allSteps .active{
+  background-color: green !important;
+  color: #fff !important;
+  border: 5px solid yellowgreen !important;
+}
+
+.allSteps .complete{
+  background-color: green !important;
+  color: #fff !important;
+  border: 5px solid green !important;
+}
+
+.allSteps .step{
+  background-color: white;
+  color: grey;
+  /* background-color: green;
+  color: #fff; */
+  border-radius: 50%;
+  padding: 16px 24px;
+  width: auto;
+  display: inline-block;
+  border: 5px solid lightgray;
+}
+
+.donut{
+  width: 60% !important;
+  height: auto !important;
+  margin:0 auto;
+}
+
+.donutDiv{
+  position: relative;
+}
+
+.centerLabel{
+  position: absolute;
+  width:100%;
+  text-align: center;
+  top:50%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
